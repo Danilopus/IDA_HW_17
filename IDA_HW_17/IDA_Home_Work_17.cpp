@@ -5,15 +5,13 @@
 #include <algorithm>
 //#include <array>
 
-int Get_Random_Array(int const Size);
-
 //----------- INTEGER Input filtrers -------------------------------
 int Get_Int_SA();				// String-analysis вариант фильтра INTEGER
 int Get_Int_Positive();			// String-Analysis вариант проверки ввода INTEGER_POSITIVE		
 int Get_Int_PG();				// peek&get вариант проверки ввода INTEGER	
 
 //----------- DOUBLE Input filtrers --------------------------------
-double Get_Dbl_SA();		// String-analysis вариант фильтра DOUBLE. дописать защиту от "", -5---, 6.55.55
+double Get_Dbl_SA();		// String-analysis вариант фильтра DOUBLE.
 double Get_Dbl_Positive();	// String-analysis вариант фильтра DOUBLE_POSITIVE
 double Get_Dbl_PG();		// peek&get вариант проверки ввода DOUBLE	
 int Get_Random_Int(int Range_min, int Range_max);
